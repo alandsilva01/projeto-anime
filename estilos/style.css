@@ -71,11 +71,11 @@ img {
     }
 
     span {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
-@media (max-height: 650px) {
+@media (max-height: 650px) and (max-width: 800px) {
 
     main {
         height: 90vh;
@@ -92,7 +92,7 @@ img {
     }
 
     .swiper {
-        width: 100vw; /*rever parametros*/
+        width: 50vw; /*rever parametros*/
         height: 180px;
     }
 }
